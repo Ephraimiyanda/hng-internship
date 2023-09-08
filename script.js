@@ -7,7 +7,7 @@ function updateDateTime() {
     const currentMilliseconds = now.getUTCMilliseconds();
     const week = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
   
-    currentUTCTime.innerHTML = currentMilliseconds;
+    currentUTCTime.innerHTML = Date.now();
     currentDayOfTheWeek.innerHTML = week[currentDay];
   }
   updateDateTime();
