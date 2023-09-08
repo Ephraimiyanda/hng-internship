@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <section class="section_1">
+        <img
+          src="./image/profile picture.jpg"
+          width="200px"
+          alt="profile picture"
+          data-testid="slackDisplayImage"
+        />
+        
+      </section>
+      <section class="section_2">
+        <div class="dataids name">
+           <span><b>Name :</b></span> <p data-testid="slackUserName"><b>Ephraim Iyanda</b></p>
+        </div>
+        <div class="dataids">
+          <span><b>Date :</b> </span>
+          <p data-testid="currentDayOfTheWeek"></p>
+        </div>
+        <div class="dataids">
+          <span><b>CurrentUTCTime :</b> </span>
+          <p data-testid="currentUTCTime"></p>
+        </div>
+        <div class="dataids">
+          <span><b>Track : </b></span>
+          <p data-testid="myTrack">Frontend developer</p>
+        </div>
+        <div class="dataids">
+          <span><b>Git repo : </b> </span
+          ><a href="https://github.com/Ephraimiyanda" data-testid="githubURL">
+            https://github.com/Ephraimiyanda</a
+          >
+        </div>
+      </section>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
